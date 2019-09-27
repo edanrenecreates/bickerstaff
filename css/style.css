@@ -1,0 +1,120 @@
+/* fonts
+font-family: 'Roboto', sans-serif;
+font-family: 'Raleway', sans-serif;
+*/
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+  background: transparent!important;
+}
+
+.navbar .navbar-brand {
+    color: #fff!important;    
+}
+
+#my-nav .nav-link {
+  color: #fff!important;
+}
+
+#hero {
+  width: 100%;
+  min-height: 700px;
+  background: url("../img/hero_img.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-text,h1, hr, h4 {
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Roboto', sans-serif; 
+} 
+
+.hero-text span {
+  font-weight: 100;
+}
+
+.hero-text hr {
+  border: 1px solid rgba(255, 255, 255, .5);
+  margin-top: -10px;
+}
+
+.hero-text h4 {
+  margin-top: -15px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+/* About Section */
+
+#about {
+  display: flex;
+  text-align: center;
+}
+
+#about h2{
+  font-weight: 200;
+  text-transform: uppercase;
+}
+
+.about-text {
+  margin-top: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+#about hr {
+  border: 1px solid rgb(207, 207, 207);
+  width: 45%;
+}
+
+#about p {
+  line-height: 24px;
+  text-align: center;
+  padding: 5px 15px;
+}
+
+#about .about-text {
+  border-right: 2px solid rgb(0, 0, 0);
+}
+
+#about img {
+  display: block;
+  margin: auto;
+  height: 450px;
+  width: auto;
+  margin-top: 20px;
+}
+/* -- Gallery Section -- */
+
+#gallery-text {
+  background-color: black;
+  min-height: 400px;
+  width: 100%;
+  margin-top: 15px;
+}
+
+#gallery-text h2 {
+  color: #fff;
+  text-transform: uppercase;
+  padding-top: 30px;
+}
+
+/* gallery images */
+.col1 img {
+  width: 600px;
+  height: 600px;
+}
+
